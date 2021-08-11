@@ -1,0 +1,102 @@
+.banner-dogs{
+    background: url('../assets/img/hero-dog.png') no-repeat;
+    max-width: 100%;
+}
+
+.main-title-dogs{
+    text-align: center;
+    font-family: var(--fontOne);
+    font-size: 3rem;
+    color: var(--colorSix);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 10%;
+}
+
+.products-dog-title{
+    font-family: var(--fontOne);
+    font-size: 2rem;
+    color: var(--colorOne);
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.products-dog-text{
+    font-family: var(--fontTwo);
+    font-size: 1.1rem;
+    color: #807C97;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.products-dogs{
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 4px 4px 6px 4px #E5E4EC;
+    border-radius: 20px;
+}
+
+@media (min-width: 1440px){
+    .banner-dogs{
+        background-size: 100% 100%;
+    }
+}
+
+@media (min-width: 992px){
+    .banner-dogs{
+        height: 650px;
+    }
+}
+
+@media (max-width: 992px){
+    .banner-dogs{
+        max-width: 100%;
+        height: 400px;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .banner-dogs{
+        background: url('../assets/img/banners-mobile_01.png') no-repeat;
+        max-width: 100%;
+        background-size: contain;
+    }
+    .products-dogs{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px){
+    .banner-dogs{
+        height: 250px;
+    }
+    .products-dog-title{
+        font-size: 1.25rem;
+    }
+    .products-dog-text{
+        font-size: 1rem;
+    }
+    .products-dogs{
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px){
+    .banner-dogs{
+        height: 202px;
+    }
+    .main-title-dogs{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 320px){
+    .banner-dogs{
+        height: 150px;
+    }
+    .main-title-dogs{
+        font-size: 1rem;
+    }
+}
